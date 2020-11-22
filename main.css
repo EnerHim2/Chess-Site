@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}  
+body {
+    margin: 0;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+#difficulty-info {
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 20;
+}
+button {
+    align-self: center;
+    margin-left: 20;
+}
